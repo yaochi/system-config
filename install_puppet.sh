@@ -267,6 +267,15 @@ function setup_pip {
     python get-pip.py
     rm get-pip.py
 
+    # use aliyun pip source, update xiexianbin
+    if [ ! -f ~/.pip/pip.conf ]; then
+        mkdir -p ~/.pip
+        echo "[global]" >> ~/.pip/pip.conf
+        echo "index-url = http://mirrors.aliyun.com/pypi/simple/" >> ~/.pip/pip.conf
+        echo "[install]" >> ~/.pip/pip.conf
+        echo "trusted-host=mirrors.aliyun.com" >> ~/.pip/pip.conf
+    fi
+
     # we are about to overwrite setuptools, but some packages we
     # install later might depend on the python-setuptools package.  To
     # avoid later conflicts, and because distro packages don't include
