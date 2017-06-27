@@ -12,15 +12,15 @@
 #deb http://security.ubuntu.com/ubuntu xenial-security universe
 #deb http://security.ubuntu.com/ubuntu xenial-security multiverse
 
-deb http://cn.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse
-deb http://cn.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse
-deb http://cn.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse
-deb http://cn.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
-deb http://cn.archive.ubuntu.com/ubuntu/ xenial-proposed main restricted universe multiverse
-deb-src http://cn.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse
-deb-src http://cn.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse
-deb-src http://cn.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse
-deb-src http://cn.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
-deb-src http://cn.archive.ubuntu.com/ubuntu/ xenial-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ xenial main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ xenial-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ xenial-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ xenial main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ xenial-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ xenial-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ xenial-proposed main restricted universe multiverse
 deb http://archive.canonical.com/ubuntu/ xenial partner
 deb http://extras.ubuntu.com/ubuntu/ xenial main
